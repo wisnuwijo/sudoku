@@ -1,0 +1,45 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+table {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+.table-tile {
+    border: 1px solid #b7b7b7;
+}
+
+.main-tile {
+    border: 2px solid #000;
+}
+
+.main-tile td {
+    padding: 0px;
+}
+
+.tile-input {
+    outline: none;
+    border: none;
+    text-align: center;
+    width: 50px;
+    font-size: 20pt;
+    height: 50px;
+}
+
+.tile-input:hover {
+    background-color: #eee;
+}
+
+.padding-top-50 {
+    padding-top: 50px;
+}
